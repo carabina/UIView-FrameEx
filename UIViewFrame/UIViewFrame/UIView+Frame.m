@@ -28,7 +28,7 @@
 }
 
 - (void)setBottom:(CGFloat)b {
-    self.frame = CGRectMake(self.x, b - self.height, self.width, self.height);
+    self.frame = CGRectMake(self.left, b - self.height, self.width, self.height);
 }
 
 - (CGFloat)right {
@@ -36,7 +36,7 @@
 }
 
 - (void)setRight:(CGFloat)r {
-    self.frame = CGRectMake(r - self.width, self.y, self.width, self.height);
+    self.frame = CGRectMake(r - self.width, self.top, self.width, self.height);
 }
 
 - (CGFloat)centerX

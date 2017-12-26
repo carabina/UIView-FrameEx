@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "UIView+Frame"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "UIView+Frame is a category for UIView which makes it easy to access frame properties ."
   s.description  = <<-DESC
                    A longer description of UIView+FrameEx in Markdown format.
@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
   s.author       = "zhouxiangzhong"
   s.platform     = :ios, "5.0"
   s.source       = { :git => "https://github.com/jprothwell/UIView-FrameEx.git", :tag => s.version.to_s }
-  s.source_files  = "*.{h,m}"
+  s.source_files  = "UIViewFrame/UIViewFrame/*.{h,m}"
 
 end
