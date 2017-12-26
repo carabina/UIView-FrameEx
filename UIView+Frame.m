@@ -1,5 +1,5 @@
 
-#import "UIView+FrameEx.h"
+#import "UIView+Frame.h"
 
 @implementation UIView (Frame)
 
