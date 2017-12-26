@@ -1,11 +1,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (FrameEx)
+@interface UIView (Frame)
 
-@property (nonatomic) CGFloat x;
+@property (nonatomic) CGFloat left;
 
-@property (nonatomic) CGFloat y;
+@property (nonatomic) CGFloat top;
 
 @property (nonatomic) CGFloat bottom;
 
